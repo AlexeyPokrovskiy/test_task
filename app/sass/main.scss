@@ -1,5 +1,56 @@
-body{
-	background:blue;
-	display: flex;
+@import
+"reset.scss";
 
+
+body{
+	background: #f7f8fa;
+	display: flex;
+	justify-content:center;
+	font: 400 16px/1.2em Helvetica,Arial,sans-serif;
+	text-rendering: optimizeLegibility;
+
+}
+.default{
+	max-width: 960px;
+}
+.proof_container{
+	max-width: 960px;
+	display: flex;
+	flex-direction: row;
+
+
+
+}
+.proof_item{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+
+	img{
+
+	}
+	p{
+		font-size:14px;
+		color:#8a8a8a;
+	}
+}
+.default-border{
+	max-width: 960px;
+	background:#ffffff;
+	border:1px solid #d5d5d5;
+	padding: 36px 36px 34px;
+}
+.seo{
+	margin: 35px 0;
+	line-height: 14px;
+	h2{
+		font-size:14px;
+		color:#898989;
+		padding: 5px 0;
+	}
+	p{
+		font-size:10px;
+		color:#898989;
+	}
 }
