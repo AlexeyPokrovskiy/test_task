@@ -1,0 +1,270 @@
+
+body{
+	background: #f7f8fa;
+
+	font: 400 16px/1.2em Helvetica,Arial,sans-serif;
+	text-rendering: optimizeLegibility;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+
+}
+section{
+	margin: 16px 10px;
+	display: block;
+	box-sizing: border-box;
+}
+.wrap{
+	width: 100%;
+	min-width: 320px;
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	-webkit-flex-flow: column;
+	-ms-flex-flow: column;
+	flex-flow: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+.default{
+	max-width: 960px;
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	width: 95.8333%;
+}
+
+.proof_container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	padding: 6px 9px 0;
+
+	.proof_item{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+		img{
+
+		}
+		p{
+			font-size:14px;
+			color:#8a8a8a;
+			&::before{
+				content: "” ";
+				font: 700 18px/16px $font-base-reg,"Times New Roman",serif;
+			
+			}
+			&::after{
+				content: " “";
+				font: 700 18px/16px $font-base-reg,"Times New Roman",serif;
+			}
+		}
+	}
+}
+
+.box-and-border{
+	background:#ffffff;
+	border:1px solid #d5d5d5;
+	padding: 36px 36px 34px;
+	width: 100%;
+	margin: 29px 0;
+}
+.seo{
+
+	line-height: 14px;
+	width: 100%;
+	text-align:right;
+	h2{
+		font-size:14px;
+		color:#898989;
+		padding: 5px 0;
+	}
+	p{
+		font-size:10px;
+		color:#898989;
+	}
+}
+
+footer{
+	width: 100%;
+	border-top: 2px solid #56b2fc;
+	.top-line{
+		.social-bar{
+			margin-top: 17px;
+			.social-item{
+				
+				margin-right: 17px;
+			}
+		}
+	}
+	.subscribe-text{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: -10px;
+		.heading-text{
+				
+				max-width: 480px;
+				display:flex;
+				justify-content: center;
+				
+				h2{
+					font-family:$font-base-reg;
+					font-size:18px;
+					color:#2c2c2c;
+					letter-spacing:0.4px;
+					line-height:26px;
+					text-align:center;
+					width: 100%;
+					
+				}
+		}
+	}
+	
+	.form-subscribe{
+		margin: 32px 0 45px 0;
+		form{
+			display: flex;
+			flex-direction: row;
+			justify-content:center;
+		}
+		.input-box{
+			display: flex;
+			aling-items: center;
+			background:#ffffff;
+			border:1px solid #cccccc;
+			width:378px;
+			height:44px;
+			border-radius:0 25px 25px 0;
+
+		
+			input{
+	
+				font-family:$font-base-reg;
+				font-size:15px;
+				color:#848484;
+				letter-spacing:0.4px;
+				line-height:24px;
+				border: none;
+				width: 100%;
+				text-align: right;
+				margin: 0 20px
+			}
+		}
+		
+		button{
+			background:#f04c53;
+			border-radius:25px 0 0 25px;
+			width:172px;
+			height:46px;
+			border: none;
+			font-family:$font-base-reg;
+			font-size:15px;
+			color: white;
+			letter-spacing:0.4px;
+			line-height:24px;
+			margin-right: 12px;
+		}
+	}
+	.link-bar{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;		
+		.blue-link{
+
+			ul{
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				flex-wrap: wrap;
+				li{
+					margin: 0 20px;
+					a{
+						font-family:$font-base-reg;
+						font-size:14px;
+						color:#2196f3;
+						line-height:18px;
+					}
+				}
+			}
+		}
+		.black-link{
+			margin-top:15px;
+			ul{
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				flex-wrap: wrap;
+				li{
+					margin: 0 20px;
+					a{
+						font-family:$font-base-reg;
+						font-size:12px;
+						color:#2c2c2c;
+						line-height:18px;
+					}
+				}
+			}
+		}
+	}
+	.bottom-line{
+		border-top: 1px solid #dadada;
+		margin-top: 36px;
+
+		.bottom-block{
+			display: flex; 
+			flex-direction: row;
+			align-items: center;
+			height: 74px;
+			justify-content:space-between;
+			.footer-payment-bar{
+				display: flex; 
+				flex-direction: row;
+				align-items: center;
+				.comodo{
+					margin-right: 50px
+				}
+				.payment{
+
+					display: flex;
+		
+					img{
+						width: 28px;
+						height: 20px;
+						margin-right: 5px;
+					}
+				
+				}
+			}
+				.copyright{
+					float: right;
+					p{
+						font-family:NotoSansHebrew;
+						font-size:12px;
+						color:#2c2c2c;
+						text-align:right;
+					}
+				}
+
+		}
+		
+	}
+
+}
+.social-bar-bottom{
+	display:none;
+
+	.social-item{
+		margin-right: 17px;
+	}
+}

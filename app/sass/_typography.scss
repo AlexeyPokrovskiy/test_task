@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "NotoSansHebrew";
+  src: url("../font/NotoSansHebrew/NotoSansHebrew-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NotoSansHebrewLight";
+  src: url("../font/NotoSansHebrew/NotoSansHebrew-Light.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NotoSansHebrewBold";
+  src: url("../font/NotoSansHebrew/NotoSansHebrew-Bold.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+$font-base-reg:            "NotoSansHebrew", "Arial", sans-serif;
+$font-base-bold:            "NotoSansHebrewBold", "Arial", sans-serif;
+$font-base-light:            "NotoSansHebrewLight", "Arial", sans-serif;
+
+

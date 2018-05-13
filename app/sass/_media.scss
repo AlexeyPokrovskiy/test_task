@@ -1,0 +1,161 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1900px) {
+
+}
+@media only screen and (max-width : 1685px) {
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1185px) {
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1085px) {
+
+}
+@media only screen and (max-width : 1000px) {
+
+
+}
+
+@media only screen and (max-width : 980px) {
+ body{
+ 	.proof_container{
+    	display:none;
+  	}
+  	.social-bar{
+      display:none;
+  	}
+  	.heading-text{
+    	margin: 35px 19px 0;
+  	}
+  	.box-and-border{
+  		padding: 26px 26px 24px;
+  	}
+  	.comodo{
+  		display:none;
+  	}
+  	.social-bar-bottom{
+  		display: flex;
+  	}
+  	.payment{
+  		display: flex;
+  		justify-content: space-between;
+  		align-items: center;
+
+
+  	}
+  	.footer-payment-bar{
+  		display: flex;
+  		align-items: center;
+  		justify-content: space-between;
+  		margin: 10px 0;
+  		width: 100%;
+  	}
+  	footer .bottom-line .bottom-block{
+  		display: flex;
+  		flex-direction: column;
+  		height: auto;
+  	}
+  	.copyright{
+  		width: 100%;
+  	}
+ }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 768px) {
+ footer{
+		.form-subscribe{
+			display: flex;
+			justify-content:center;
+			form{
+				display: flex;
+				flex-direction: column-reverse;
+				justify-content:center;
+				width:500px;
+				.input-box{
+					border-radius:25px;
+					width: 100%;
+					input{
+						text-align: center;
+					}
+				}
+				
+				button{
+					margin-top: 10px;
+					border-radius:25px;
+					width: 100%;
+				}
+			}
+
+
+	
+		}
+		.link-bar>.black-link{
+			margin: 15px -14px 0;
+			ul{
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+				li{
+					background: #ececec;
+					padding: 7px 0px;
+					width: 100%;
+					border-top: 1px solid #b0b0b0;
+					text-align: right;
+					margin: 0;
+					a{
+						font-family:$font-base-reg;
+						font-size:14px;
+						color:#514f4f;
+						line-height:18px;
+						margin-right: 20px;
+						
+						
+					}
+				}
+			}
+		}
+		.bottom-line
+		{
+				margin-top: 0px;
+		}
+	}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 580px) {
+
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 500px) {
+	body{
+		.blue-link{
+			li{
+					margin: 20px 20px;
+			}
+		}
+	}
+}
+@media only screen and (max-width : 480px) {
+ body{
+	.box-and-border{
+	  		padding: 16px 16px 14px;
+	  	}
+	 }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 400px) {
+
+
+}
+@media only screen and (min-width : 1000px) {
+  
+}
+@media only screen and (min-width : 768px) {
+  
+}
